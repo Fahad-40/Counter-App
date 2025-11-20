@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <h1 class="title">Counter Application</h1>
+
+        <div class="counter-box">
+            <p class="mainDisplay">0</p>
+        </div>
+
+        <div class="btn-group">
+            <button onclick="incBtn()">Increment</button>
+            <button onclick="decBtn()">Decrement</button>
+            <button onclick="resetBtn()">Reset</button>
+        </div>
+
+        <div class="custom">
+            <input type="number" id="customValue" placeholder="Enter Custom Value">
+            <div class="btn-group1">
+                <button onclick="customInc()">Custom +</button>
+                <button onclick="customDec()">Custom -</button>
+            </div>
+        </div>
+
+        <div class="clicks">
+            <p>Clicks on Increment: <span id="incClick">0</span></p>
+            <p>Clicks on Decrement: <span id="decClick">0</span></p>
+        </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
